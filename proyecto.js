@@ -58,6 +58,16 @@ const projects = {
     features: ['Organización automática por tipo de archivo', 'Modo simulación y monitorización continua', 'Descarga de vídeo y extracción de audio', 'Historial para evitar contenido duplicado'],
     stack: ['Python', 'yt-dlp', 'FFmpeg', 'argparse', 'Automatización'],
     learning: 'Estos scripts reforzaron mi capacidad para crear herramientas resistentes, reutilizables y centradas en ahorrar tiempo real.'
+  },
+  'pokemon-anil': {
+    number: '07', type: 'MODDING · GAME SYSTEMS', title: 'Pokémon Añil — Edición GK', accent: 'indigo',
+    lead: 'Una modificación personalizada que lleva los sistemas de Pokémon Añil hacia una experiencia más profunda, legible y configurable.',
+    overview: 'Pokémon Añil — Edición GK es una modificación integral construida sobre Pokémon Añil. El trabajo amplía sus sistemas de aleatorización, combate y progresión, y reúne herramientas de calidad de vida pensadas para reducir fricción sin imponer una única forma de jugar.',
+    challenge: 'La ampliación debía convivir con las reglas existentes, mantener la compatibilidad con partidas antiguas y ofrecer más información táctica sin saturar la interfaz. Cada ayuda, además, tenía que poder desactivarse de forma independiente para preservar la experiencia elegida por cada jugador.',
+    solution: 'Depuré el pool del modo Random y habilité 125 MT desde el inicio, junto con movimientos por nivel sin restricciones de nivel o potencia y manteniendo la prioridad STAB. Diseñé tres perfiles de IA —Clásica, Competitiva y Suprema, inspirada en Run &amp; Bun— y añadí indicadores opcionales de eficacia, daño estimado y golpes necesarios para el KO.',
+    features: ['Pool Random depurada, 125 MT iniciales y movimientos por nivel sin límites de nivel o potencia, con prioridad STAB', 'Tres modos de IA seleccionables: Clásica, Competitiva y Suprema', 'Indicadores opcionales de eficacia, daño estimado y golpes para KO', 'Editor rápido de EV para el equipo y las cajas del PC', 'Buscador avanzado del PC, recordador de movimientos, analizador de debilidades y zona de pruebas', 'Registro de entrenadores, resumen de decisiones de IA y mapa de progreso con viaje a objetivos', 'Compatibilidad con partidas antiguas y controles independientes para desactivar cada función'],
+    stack: ['Ruby', 'Pokémon Essentials', 'IA de combate', 'Diseño de sistemas', 'UX/QOL'],
+    learning: 'La modificación exigió entender un sistema de juego existente, extenderlo sin romper su equilibrio y convertir lógica compleja de combate en información clara, opcional y útil para el jugador.'
   }
 };
 

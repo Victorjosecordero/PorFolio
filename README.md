@@ -1,6 +1,6 @@
 # Portfolio — Víctor Peña
 
-Portfolio personal estático y responsive, preparado para publicarse en GitHub Pages.
+Portfolio personal estático y responsive, preparado para publicarse en GitHub Pages. Incluye siete casos de estudio navegables, presentados con ilustraciones CSS sin dependencias gráficas externas.
 
 ## Vista local
 
